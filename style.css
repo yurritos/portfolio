@@ -1,0 +1,76 @@
+/* Configurações Gerais */
+body {
+    background-color: rgb(238, 234, 235);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(40, 40, 40);
+}
+
+/* Cabeçalho */
+header {
+    margin: 20px 50px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+header a:hover {
+    color: rgb(120, 120, 120); /* Muda de cor ao passar o mouse */
+}
+
+header img {
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 60px; /* Substituído de 18mm para px */
+    height: 60px;
+    object-fit: cover;
+}
+
+/* Conteúdo Principal */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    max-width: 1000px; /* Limita a largura para telas muito grandes */
+    margin: 100px auto; /* Centraliza o container na tela */
+    padding: 0 40px;
+    gap: 50px;
+}
+
+.text-content {
+    flex: 1; /* Faz o texto ocupar o espaço disponível */
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(20, 20, 20);
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Imagem de Destaque */
+.image {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    object-fit: cover;
+}
